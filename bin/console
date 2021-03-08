@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
+require "awesome_print"
 require "bundler/setup"
-require "dependabot_checker"
+require "dependabot_scanner"
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.

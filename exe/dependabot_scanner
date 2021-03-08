@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby -I lib
+
+require "dependabot_scanner"
+
+DependabotScanner::Core.new(ARGV.shift).repos_with_dependabot
+
